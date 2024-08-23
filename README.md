@@ -1,10 +1,27 @@
 ## [**Cohort Analysis for Ecommerce Retention Rate (SQL Query)**](#)
 
+**To view the SQL query:** [Link Here](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/cohort_analysis_sql_query.sql)
+
+### **Visualizations**
+
+#### **Cohort Table**
+
+![Cohort Table](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/cohort_analysis.png)
+
+#### **Cumulative Cohort Table**
+
+![Cumulative Cohort Table](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/cumulative_cohort_analysis.png)
+
+#### **LTV & Cumulative Retention Rate**
+
+![LTV & 90 Day Retention Rate](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/LTV_and_retention_rate.png)
+
+#### **Retention Rate by Each Month**
+
+![Retention Rate by Each Month](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/month_by_month_retention_rate.png)
 ## **SUMMARY**
 
 This SQL query performs cohort analysis on customer purchase data, providing insights into customer retention, revenue, and lifetime value over time. The analysis aggregates customer behavior into cohort groups and tracks their engagement and purchasing patterns, making it an essential tool for understanding long-term customer retention and revenue trends.
-
-**To view the SQL query:** [Link Here](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/cohort_analysis_sql_query.sql)
 
 ### **Metrics and Dimensions**
 
@@ -60,24 +77,6 @@ This SQL query performs cohort analysis on customer purchase data, providing ins
 ### **Usage**
 
 To use this script, execute it in your SQL database environment. Ensure that the `ECOM2.sales` table contains the necessary columns and data. After execution, the resulting `ECOM2.cohorts` table will provide detailed cohort analysis metrics, offering a comprehensive view of customer retention and revenue trends over time.
-
-### **Visualizations**
-
-#### **Cohort Table**
-
-![Cohort Table](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/cohort_analysis.png)
-
-#### **Cumulative Cohort Table**
-
-![Cumulative Cohort Table](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/cumulative_cohort_analysis.png)
-
-#### **LTV & Cumulative Retention Rate**
-
-![LTV & 90 Day Retention Rate](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/LTV_and_retention_rate.png)
-
-#### **Retention Rate by Each Month**
-
-![Retention Rate by Each Month](https://github.com/analytisor/Cohort_analysis_calculating_ecommerce_retention_rate/blob/main/month_by_month_retention_rate.png)
 
 ### **Contributing**
 
